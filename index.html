@@ -1,180 +1,118 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Portfolio de Vilmar</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-
-	<!-- Navegador -->
-
-	<section>
-		
-		
-			<nav>
-
-				<a href="#" class="logo"> Portfolio Vilmar</a>
-
-				<ul> 
-					<li><a href="#" class="active">Home</a></li>
-					<li><a href="#">Sobre</a></li>
-					<li><a href="#">Projetos</a></li>
-					<li><a href="#">Contato</a></li>
-				</ul>
-          
-            </nav>
-
-            
-            <!-- Textos -->
-            <div class="conteudo-texto">
-            	<p>Bem-Vindos</p>
-            	<p>Eu sou Vilmar Andrade</p>
-            	<p>Cientista da Computação <br></p>
-            	<button class="btn1">Saiba mais</button>
-                <button onclick="window.open('./botoes/profile.pdf')">Download CV</button>
-            	
-            </div>
-
-
-            <!-- Carregando a imagem sem Fundo -->
-            <div>
-            	 
-            	 <img src="img/foto.png" class="imgbg" alt="imgbg">
-
-            </div>
-
-	</section>
-
-
-
+  <head>
+    <meta charset="utf-8" />
+    <title>Portfolio de Vilmar</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <!-- Navegador -->
+    <section>
+      <nav>
+        <a href="#" class="logo"> Portfolio Vilmar</a>
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#sobre-mim">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <!-- Textos -->
+      <div class="header-info">
+        <div class="conteudo-texto">
+          <p>Bem-Vindos</p>
+          <p>Eu sou Vilmar Andrade</p>
+          <p>Cientista da Computação <br /></p>
+          <button class="btn2" onclick="window.open('./assets/pdf/resume.pdf')">Download CV</button>
+        </div>
+        <img src="assets/img/foto.png" class="imgbg" alt="imgbg" />
+      </div>
+      <!-- Carregando a imagem sem Fundo -->
+    </section>
     <!-- Conteúods -->
-
     <div class="conteudo-sobre">
-    	
-    	<img src="img/é o pai.png">
+      <img src="assets/img/profile.png" class="profile-image" />
 
-    	<div class="texto-sobre">
-
-    		<p>Sobre mim!</p>
-    		<p>Cientista da Computação & Atualmente cursando a faculdade de Ciências da Computação.</p>
-
-    		<p>Olá meu nome é Vilmar Andrade sou Desenvolvedor de Software, novo na área, buscando a maestia da programação. Embora ainda não possua experiência profissional concreta nessa área, tenho foco em aprender cada vez mais, e farei o que for necessário para conseguir.</p>
-    		<p>
-    			Na atualidade trabalho como Auxiliar de Apoio das eleições temporariamente, e sou apaixonado por tecnologia e por esporte.
-    		</p>
-
-    		
-    		<button class="btn2"> Download CV</button>
-    		
-
-
-
-    	</div>
+      <div class="texto-sobre" id="sobre-mim">
+        <h1>Sobre mim:</h1>
+        <p>
+          Cientista da Computação & Atualmente cursando a faculdade de Ciências da Computação. Olá
+          meu nome é Vilmar Andrade sou Desenvolvedor de Software, novo na área, buscando a maestia
+          da programação. Embora ainda não possua experiência profissional concreta nessa área,
+          tenho foco em aprender cada vez mais, e farei o que for necessário para conseguir. Na
+          atualidade trabalho como Auxiliar de Apoio das eleições temporariamente, e sou apaixonado
+          por tecnologia e por esporte.
+        </p>
+      </div>
     </div>
-
 
     <!-- Serviços -->
 
-    <div class="servicos">
+    <div class="servicos" id="projetos">
+      <div class="servicos-textos">
+        <p>Projetos:</p>
+      </div>
 
-        <div class="servicos-textos">
+      <div class="conteudo-box">
+        <div class="box1">
+          <span>1</span>
 
-            <p>Projetos!</p>
-            <p>Se deseja conversar comigo.</p>
-            <p>Whatsapp 54 9 9983-0923.</p>
-            
+          <p class="headid">Projetos</p>
+
+          <p class="detalhes">
+            EM OBRAS :)
+            <br />
+            FECHADO PARA CONSTRUÇÕES!!
+          </p>
         </div>
 
-        <div class="conteudo-box">
+        <div class="box2">
+          <span>2</span>
 
+          <p class="headid">Projetos</p>
 
-            <div class="box1">
-                <span>1</span>
-
-                <p class="headid">Projetos</p>
-
-                <p class="detalhes">
-                           EM OBRAS :)  
-                          <br>
-                          FECHADO PARA CONSTRUÇÕES!!</p>
-
-                          <button>Saiba mais</button>
-            
-
-            </div>
-
-            <div class="box2">
-                <span>2</span>
-
-                <p class="headid">Projetos</p>
-
-                <p class="detalhes">
-                           EM OBRAS :) 
-                          <br>
-                          FECHADO PARA CONSTRUÇÕES!!</p>
-
-                          <button>Saiba mais</button>
-            
-
-            </div>
-
-            <div class="box3">
-                <span>3</span>
-
-                <p class="headid">Projetos</p>
-
-                <p class="detalhes">
-                           EM OBRAS :)
-                          <br>
-                          FECHADO PARA CONSTRUÇÕES!!</p>
-
-                          <button>Saiba mais</button>
-            
-
-            </div>
-
-            <div class="box4">
-                <span>4</span>
-
-                <p class="headid">Projetos</p>
-
-                <p class="detalhes">
-                           EM OBRAS :) 
-                          <br>
-                          FECHADO PARA CONSTRUÇÕES!!</p>
-
-                          <button>Saiba mais</button>
-            
-
-            </div>
-            
+          <p class="detalhes">
+            EM OBRAS :)
+            <br />
+            FECHADO PARA CONSTRUÇÕES!!
+          </p>
         </div>
-        
+
+        <div class="box3">
+          <span>3</span>
+
+          <p class="headid">Projetos</p>
+
+          <p class="detalhes">
+            EM OBRAS :)
+            <br />
+            FECHADO PARA CONSTRUÇÕES!!
+          </p>
+        </div>
+
+        <div class="box4">
+          <span>4</span>
+
+          <p class="headid">Projetos</p>
+
+          <p class="detalhes">
+            EM OBRAS :)
+            <br />
+            FECHADO PARA CONSTRUÇÕES!!
+          </p>
+        </div>
+      </div>
     </div>
 
-
-    
     <!-- Seção fale conosco -->
-
-    <div class="contato">
-      
-      <p>Se você gostou do meu Portifóleo entre em contato comigo!</p>
-
-      <button>Fale comigo</button>
-
-
+    <div class="contato" id="contato">
+      <p>Se você gostou do meu Porfolio entre em contato comigo!</p>
+      <button class="botao-contato">
+        <a
+          href="https://api.whatsapp.com/send?phone=54999830923&text=Ol%C3%A1%20Vilmar%20Andrade%20gostei%20do%20seu%20portfolio%20e%20gostaria%20de%20conversar%20com%20voc%C3%AA."
+          >Fale comigo</a
+        >
+      </button>
     </div>
-
-         
-
-
-
-
-
-	
-
-	
-
-</body>
+  </body>
 </html>
